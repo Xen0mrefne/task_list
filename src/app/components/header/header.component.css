@@ -1,20 +1,5 @@
-header {
+.task-header {
     padding: 20px;
-
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-}
-
-.task-container {
-    padding: 20px;
-    width: 100%;
-    max-width: 500px;
-    height: 500px;
-
-    border: 2px solid var(--color-1);
-    color: var(--color-1);
-    border-radius: 10px;
+    justify-content: space-between;
 }

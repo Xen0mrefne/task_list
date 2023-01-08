@@ -52,6 +52,7 @@ a {
 .btn {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     font-weight: 600;
