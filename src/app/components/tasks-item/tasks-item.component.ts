@@ -9,4 +9,5 @@ import { Task } from 'src/app/Task';
 })
 export class TasksItemComponent {
   @Input() task: Task = TASKS[0];
+
 }
