@@ -1,0 +1,23 @@
+:host {
+    width: 100%;
+    max-width: 600px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form .check {
+    margin-bottom: 10px;
+}
+
+.check label {
+    margin-right: 10px;
+}
+
+.submit {
+    width: 100%;
+    color: var(--white);
+}

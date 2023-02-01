@@ -1,7 +1,17 @@
 .task {
+    border-radius: 5px;
     padding: 10px;
     margin: 5px 0px;
     background-color: var(--color-1);
     color: var(--white);
     cursor: pointer;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reminder {
+    color: var(--green);
 }

@@ -1,4 +1,7 @@
-<li class="task">
-    <h3 class="text">{{task.text}}</h3>
-    <p>{{task.day}}</p>
+<li class="task" [ngClass]="{reminder: task.reminder}" (click)="onToggle(task)">
+    <div class="text">
+        <h3>{{task.text}}</h3>
+        <p>{{task.day}}</p>
+    </div>
+    <button class="btn btn-red" (click)="onDelete(task, $event)">delete</button>
 </li>

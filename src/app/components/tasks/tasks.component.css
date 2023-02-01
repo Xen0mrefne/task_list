@@ -1,5 +1,14 @@
 .tasks {
-    padding: 20px;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks .list {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
 }
 
 li {

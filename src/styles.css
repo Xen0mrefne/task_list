@@ -8,16 +8,26 @@
     --white: hsl(0, 0%, 90%);
     --gray: hsl(0, 0%, 20%);
     --black: hsl(0, 0%, 10%);
-    --red: rgb(255, 120, 120);
-    --green: rgb(120, 255, 120);
-    --blue: rgb(120, 120, 255);
-    --red-opacity: rgba(255, 120, 120, 0.4);
-    --green-opacity: rgba(120, 255, 120, 0.4);
-    --blue-opacity: rgba(120, 120, 255, 0.4);
-    --color-1: #8a5422;
-    --color-1-opacity: #8a54225f;
-    --color-2: #D68E4B;
-    --color-2-opacity: #D68E4B5f;
+    --red: rgb(225, 100, 100);
+    --red-light: rgb(255, 150, 150);
+    --green: rgb(100, 225, 100);
+    --green-light: rgb(150, 255, 150);
+    --blue: rgb(100, 100, 225);
+    --blue-light: rgb(150, 150, 255);
+    --chocolate: #8a5422;
+    --chocolate-opacity: #8a54225f;
+    --chocolate-light: #D68E4B;
+    --chocolate-light-opacity: #D68E4B5f;
+    --red-opacity: rgba(225, 100, 100, 0.4);
+    --red-light-opacity: rgba(255, 150, 150, 0.4);
+    --green-opacity: rgba(100, 225, 100, 0.4);
+    --green-light-opacity: rgba(150, 255, 150, 0.4);
+    --blue-opacity: rgba(100, 100, 225, 0.4);
+    --blue-light-opacity: rgba(150, 150, 255, 0.4);
+    --color-1: var(--blue);
+    --color-1-opacity: var(--blue-opacity);
+    --color-2: var(--blue-light);
+    --color-2-opacity: var(--blue-light-opacity);
     --font-1: 'Roboto', sans-serif;
 }
 
@@ -68,11 +78,11 @@ a {
 
 .btn-c-1 {
     background-color: var(--color-1);
-    color: var(--white);
 }
 
 .btn-c-1:hover {
     background-color: var(--color-1-opacity);
+    outline: 2px solid var(--color-1);
 }
 
 .btn-red {
@@ -80,7 +90,8 @@ a {
 }
 
 .btn-red:hover {
-    background-color: var(--red-opacity);
+    background-color: var(--red-light);
+    outline: 2px solid var(--red);
 }
 
 .btn-green {
@@ -88,7 +99,8 @@ a {
 }
 
 .btn-green:hover {
-    background-color: var(--green-opacity);
+    background-color: var(--green-light);
+    outline: 2px solid var(--green);
 }
 
 .btn-blue {
@@ -96,7 +108,8 @@ a {
 }
 
 .btn-blue:hover {
-    background-color: var(--blue-opacity);
+    background-color: var(--blue-light);
+    outline: 2px solid var(--blue);
 }
 
 .cursor-pointer {
@@ -106,21 +119,22 @@ a {
 .input {
     padding: 5px;
     border-radius: 5px;
+    border: 2px solid var(--gray);
 }
 
 .input:focus {
     outline: none;
 }
 
-.input-red {
+.input-red:focus {
     border: 2px solid var(--red);
 }
 
-.input-green {
+.input-green:focus {
     border: 2px solid var(--green);
 }
 
-.input-blue {
+.input-blue:focus {
     border: 2px solid var(--blue);
 }
 

@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+.about {
+    background-color: var(--color-1);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--white);
+    width: 100%;
+    max-width: 600px;
+}

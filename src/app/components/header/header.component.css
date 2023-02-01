@@ -1,5 +1,11 @@
 .task-header {
-    padding: 20px;
+    background-color: var(--color-2);
+    height: 100px;
+    padding: 0 5%;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    color: var(--white);
 }
